@@ -70,7 +70,7 @@ import java.util.ArrayList;
           }
       }
 
-    // Om een aangemaakte groep en gewijzigde groep op te slaan.
+    // Om een aangemaakte groep en gewijzigde groep te  opslaan.
     public void doCreateUpdateGroup() {
         createGroup();
        if (group != null) {
@@ -89,7 +89,7 @@ import java.util.ArrayList;
 }
 
 
-        // Maakt een nieuwe groep van de gegevens die de gebruiker invult.
+        // Om een nieuwe groep aan te maken van de gegevens uit gebruiker.
         public void createGroup() {
             String nameGroup = nameGroupTextField.getText();
             String courseField = courseBotton.getText();
