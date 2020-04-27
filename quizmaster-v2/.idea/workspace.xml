@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32fe18e4-7220-4b5b-9a76-2bdb806343b2" name="Default Changelist" comment="" />
+    <list default="true" id="8a43fdcb-b074-4436-8df2-680442c78730" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1ZZYfKPOmK3f19jtFsQUHEC4ibi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1Zr5hHt5uJcnlkas2qbiNufa14l" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -19,18 +26,231 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/test/database/mysql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../quizmaster-v2-eigenversie" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="database.mysql" />
+      <recent name="controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="CouchDBGroupLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controllerCouchDB.CouchDBGroupLauncher" />
+      <module name="Quizmaster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controllerCouchDB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.Main" />
+      <module name="Quizmaster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupDAOTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Quizmaster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="database.mysql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="database.mysql" />
+      <option name="MAIN_CLASS_NAME" value="database.mysql.GroupDAOTest" />
+      <option name="METHOD_NAME" value="getAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupDAOTest.getOneById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Quizmaster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="database.mysql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="database.mysql" />
+      <option name="MAIN_CLASS_NAME" value="database.mysql.GroupDAOTest" />
+      <option name="METHOD_NAME" value="getOneById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupDAOTest.storeOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Quizmaster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="database.mysql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="database.mysql" />
+      <option name="MAIN_CLASS_NAME" value="database.mysql.GroupDAOTest" />
+      <option name="METHOD_NAME" value="storeOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CouchDBGroupLauncher" />
+        <item itemvalue="JUnit.GroupDAOTest.getAll" />
+        <item itemvalue="JUnit.GroupDAOTest.getOneById" />
+        <item itemvalue="JUnit.GroupDAOTest.storeOne" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="32fe18e4-7220-4b5b-9a76-2bdb806343b2" name="Default Changelist" comment="" />
-      <created>1585048184318</created>
+      <changelist id="8a43fdcb-b074-4436-8df2-680442c78730" name="Default Changelist" comment="" />
+      <created>1585584489053</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585048184318</updated>
+      <updated>1585584489053</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="40" y="397" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586212922064">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="40" y="397" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1586212922064" />
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1586177859477">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586177859477" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586339392484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586339392484" />
+    <state width="417" height="442" key="Diff.GoToChangePopup" timestamp="1586273342570">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="417" height="442" key="Diff.GoToChangePopup/0.0.1536.824@0.0.1536.824" timestamp="1586273342570" />
+    <state x="147" y="29" width="1242" height="698" key="DiffContextDialog" timestamp="1586273392150">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="29" width="1242" height="698" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1586273392150" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1586685031009">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586685031009" />
+    <state width="1493" height="185" key="GridCell.Tab.0.bottom" timestamp="1586732104003">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="185" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586732104003" />
+    <state width="1493" height="185" key="GridCell.Tab.0.center" timestamp="1586732104003">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="185" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586732104003" />
+    <state width="1493" height="185" key="GridCell.Tab.0.left" timestamp="1586732104003">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="185" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586732104003" />
+    <state width="1493" height="185" key="GridCell.Tab.0.right" timestamp="1586732104003">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="185" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586732104003" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586214606079">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586214606079" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1586214606079">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586214606079" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1586214606079">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586214606079" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1586214606079">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586214606079" />
+    <state x="182" y="107" key="MergeDialog" timestamp="1586164404917">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="182" y="107" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1586164404917" />
+    <state x="516" y="165" key="MultipleFileMergeDialog" timestamp="1586370625280">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="516" y="165" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1586370625280" />
+    <state x="277" y="56" key="SettingsEditor" timestamp="1586206712829">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586206712829" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1586419383420">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1586419383420" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1586274185592">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586274185592" />
+    <state x="584" y="175" key="chooseDestDirectoryDialog" timestamp="1585859192425">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="584" y="175" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1585859192425" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1586849702681">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586849702681" />
+    <state x="540" y="116" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586282097661">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="116" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1586282097661" />
+    <state x="345" y="149" width="846" height="601" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586209950406">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="345" y="149" width="846" height="601" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1586209950406" />
+    <state x="395" y="205" key="git4idea.merge.GitPullDialog" timestamp="1586273098370">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="395" y="205" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1586273098370" />
+    <state x="209" y="34" key="new project wizard" timestamp="1586849745087">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1586849745087" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586206647790">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586206647790" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Quizmaster$GroupDAOTest_testInsert.ic" NAME="GroupDAOTest.testInsert Coverage Results" MODIFIED="1586209833330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>database.mysql.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Quizmaster$GroupCouchDBLauncher.ic" NAME="GroupCouchDBLauncher Coverage Results" MODIFIED="1585865916841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>controllerCouchDB.*</FILTER>
+    </SUITE>
   </component>
 </project>

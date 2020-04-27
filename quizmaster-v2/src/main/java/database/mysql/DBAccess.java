@@ -1,11 +1,8 @@
 package database.mysql;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
 public class DBAccess {
-
     private Connection connection;
     private String databaseName;
     private String mainUser;
@@ -18,14 +15,12 @@ public class DBAccess {
             "&useJDBCCompliantTimezoneShift=true" +
             "&useLegacyDatetimeCode=false" +
             "&serverTimezone=UTC";
-
     public DBAccess(String databaseName, String mainUser, String mainUserPassword) {
         super();
         this.databaseName = databaseName;
         this.mainUser = mainUser;
         this.mainUserPassword = mainUserPassword;
     }
-
     /**
      * Open database connection
      */
@@ -35,7 +30,6 @@ public class DBAccess {
             System.out.print("Laad de driver... ");
             Class.forName(MYSQL_DRIVER); // laad de JDBC-driver.
             System.out.println("Driver geladen");
-
             connection = DriverManager.getConnection(connectionURL, mainUser, mainUserPassword);
             System.out.println("OK, Connectie open");
         } catch (ClassNotFoundException driverFout) {
@@ -44,7 +38,6 @@ public class DBAccess {
             System.out.println(SQL_EXCEPTION + sqlFout.getMessage());
         }
     }
-
     /**
      * Close database connection
      */
@@ -56,7 +49,6 @@ public class DBAccess {
             System.err.println(connectionFout.getMessage());
         }
     }
-
     public Connection getConnection()  {
         return connection;
     }
